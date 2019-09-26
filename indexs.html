@@ -1,0 +1,43 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <style>
+ 
+  </style>
+</head>
+<body>
+  <div class="container">
+  
+  <div class="form-group" style="margin-top: 29px;border: 2px black">
+  <input type="text" class="form-control" id='myInput' placeholder="Search.." style="width: 60%" >
+</div>
+<div class="row">
+    <div class="col-md-8">
+<table class="table">
+  <h2>Employee Details</h2><br>
+  <thead>
+    <tr>
+	    <th>Id</th>
+      <th>Name</th>
+      <th>Location</th>
+    </tr>
+  </thead>
+  <tbody id="tBody"></tbody>
+</table>
+</div>
+
+<div class="col-md-4">
+<div id="posts" class="form-group">
+    <h2>Add Employees</h2>
+  <b>Name:</b><input type="text" id="name" class="form-control"><br>
+  <b>Location:</b><input type="text" id="location" class="form-control"><br>
+  <button class="btn btn-success" onclick="postMethod()">Submit</button><br>
+</div>
+</div>
+
+</div>
+<script src="E:\Project\js\index.js"></script>
+</body>
+</html>
